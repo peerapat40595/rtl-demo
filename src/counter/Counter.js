@@ -29,10 +29,10 @@ const Counter = () => {
   return (
     <>
       <p>{count}</p>
-      <button onClick={() => setCount(1)}>+</button>
-      <button onClick={() => setCount(-1)}>-</button>
+      <button onClick={() => setCount(count + 1)}>+</button>
+      <button onClick={() => setCount(count - 1)}>-</button>
     </>
   )
 }
 
-export default CounterReducer;
+export default Counter;
