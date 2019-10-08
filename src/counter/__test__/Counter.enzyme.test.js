@@ -1,18 +1,8 @@
-import React from 'react'
-import Counter from '../Counter'
-import ReactDOM from 'react-dom'
-import { mount } from 'enzyme'
+import { mount } from 'enzyme';
+import React from 'react';
+import Counter from '../Counter';
 
 describe('Counter', () => {
-    let container
-    beforeEach(() => {
-        container = document.createElement('div')
-        document.body.appendChild(container);
-    });
-    afterEach(() => {
-        ReactDOM.unmountComponentAtNode(container)
-        document.body.removeChild(container)
-    });
     test('show "0" as default', () => {
         const wrapper = mount(<Counter />)
         expect(wrapper.find('p').text()).toBe('0')
