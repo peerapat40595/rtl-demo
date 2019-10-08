@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Slides
+
+[https://slides.com/peerapat40595/react-testing-library](https://slides.com/peerapat40595/react-testing-library)
+
+## All demo are in src/counter folder
+
 ## Available Scripts
 
 In the project directory, you can run:
