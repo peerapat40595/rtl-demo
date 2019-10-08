@@ -25,7 +25,7 @@ describe('Counter', () => {
 
     expect(container.querySelector('p').textContent).toBe('1')
   })
-  test('count down when user click "-"', () => {
+  test('count down when user clicks "-"', () => {
     ReactDOM.render(<Counter />, container)
 
     const buttons = container.querySelectorAll('button')

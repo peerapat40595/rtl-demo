@@ -14,7 +14,7 @@ describe('Counter', () => {
     fireEvent.click(getByText('+'))
     expect(queryByText('1')).not.toBeNull()
   })
-  test('count down when user click "-"', () => {
+  test('count down when user clicks "-"', () => {
     const { queryByText, getByText } = render(<Counter />)
     fireEvent.click(getByText('-'))
     expect(queryByText('-1')).not.toBeNull()

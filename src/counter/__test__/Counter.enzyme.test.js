@@ -14,7 +14,7 @@ describe('Counter', () => {
 
         expect(wrapper.find('p').text()).toBe('1')
     })
-    test('count down when user click "-"', () => {
+    test('count down when user clicks "-"', () => {
         const wrapper = mount(<Counter />)
 
         wrapper.find('button').at(1).simulate('click')
