@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Slides
+## Slide
 
 [https://slides.com/peerapat40595/react-testing-library](https://slides.com/peerapat40595/react-testing-library)
 
