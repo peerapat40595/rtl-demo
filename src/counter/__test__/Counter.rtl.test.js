@@ -10,12 +10,16 @@ describe('Counter', () => {
   })
   test('count up when user clicks "+"', () => {
     const { getByText } = render(<Counter />)
+
     fireEvent.click(getByText('+'))
+
     expect(getByText('1')).toBeInTheDocument()
   })
   test('count down when user clicks "-"', () => {
     const { getByText } = render(<Counter />)
+
     fireEvent.click(getByText('-'))
+
     expect(getByText('-1')).toBeInTheDocument()
   })
 });
